@@ -113,6 +113,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the sanitized architecture overview.
 - [Contributing](CONTRIBUTING.md)
 - [Simulator disclaimer](DISCLAIMER.md)
 - [Public release checklist](PUBLIC_RELEASE_CHECKLIST.md)
+- [Public media register](MEDIA.md)
 
 ## Repository boundary
 
