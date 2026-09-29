@@ -25,6 +25,11 @@ Run this checklist before adding any new file, screenshot, diagram, demo, or doc
 - [ ] No language implying customer custody is active
 - [ ] No claim that NexaExchange is a licensed exchange unless that becomes formally true and is independently verified
 
+## Automated gate
+- [x] `Public showcase safety checks` workflow scans for obvious credential/private-key/database-URL patterns
+- [x] Workflow verifies README retains simulator positioning
+- [ ] Manual review is still required for screenshots, video, and context-sensitive leaks
+
 ## Repository
 - [ ] `.github/FUNDING.yml` points only to the intended GitHub Sponsors account
 - [ ] README still states simulator-only scope
