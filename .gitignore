@@ -1,0 +1,30 @@
+# Local / OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment and secret-bearing files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Local databases / dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
