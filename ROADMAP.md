@@ -15,8 +15,9 @@ NexaExchange remains a **simulated exchange engineering project**.
 ## Public-facing next steps
 
 - [ ] Add sanitized simulator screenshots
-- [ ] Add selected non-sensitive roadmap / milestone visuals
-- [ ] Finish GitHub Sponsors activation and add the Sponsor button
+- [x] Add selected non-sensitive roadmap / milestone visuals
+- [x] Add GitHub Sponsors funding configuration
+- [ ] GitHub Sponsors profile approval / Sponsor button availability
 - [ ] Pin this repository on the GitHub profile
 - [ ] Continue simulator staging validation
 - [ ] Continue monitoring, backup, accessibility, and independent-security readiness work
