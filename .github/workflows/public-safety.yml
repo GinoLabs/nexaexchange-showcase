@@ -1,0 +1,35 @@
+name: Public showcase safety checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  public-safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Block obvious secret material
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          PATTERN='AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|github_pat_[A-Za-z0-9_]+|ghp_[A-Za-z0-9]+|xoxb-[A-Za-z0-9-]+|npg_[A-Za-z0-9]+|-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----|postgres(ql)?://[^[:space:]]+|DATABASE_URL[[:space:]]*='
+
+          if grep -RInE             --exclude='public-safety.yml'             --exclude-dir='.git'             "$PATTERN" .; then
+            echo "Potential secret or private connection material found in public showcase content."
+            exit 1
+          fi
+
+      - name: Require simulator safety language
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -qi 'simulated' README.md
+          grep -qi 'does.*not.*accept' README.md
