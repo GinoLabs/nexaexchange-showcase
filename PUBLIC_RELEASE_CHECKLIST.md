@@ -26,6 +26,7 @@ Run this checklist before adding any new file, screenshot, diagram, demo, or doc
 - [ ] No claim that NexaExchange is a licensed exchange unless that becomes formally true and is independently verified
 
 ## Repository
+- [ ] `.github/FUNDING.yml` points only to the intended GitHub Sponsors account
 - [ ] README still states simulator-only scope
 - [ ] SECURITY.md remains present
 - [ ] CONTRIBUTING.md remains present
