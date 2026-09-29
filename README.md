@@ -97,7 +97,9 @@ Real-money features are intentionally outside the current public simulator scope
 
 ## Sponsorship
 
-If you want to support continued simulator development, use the GitHub **Sponsor** button after the `Yoyogino` GitHub Sponsors profile is active.
+❤️ **Support the project:** https://github.com/sponsors/Yoyogino
+
+Sponsorship helps fund public documentation, simulator development, testing, security work, infrastructure exercises, and educational engineering resources.
 
 Sponsorship does not represent an investment product, customer deposit, token sale, exchange account, or entitlement to financial returns.
 
