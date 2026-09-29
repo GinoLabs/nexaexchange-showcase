@@ -1,0 +1,22 @@
+name: Documentation or showcase feedback
+description: Suggest an improvement to this public showcase
+title: "[Showcase] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the public showcase. Do not include secrets, credentials, personal data, or vulnerability details here.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should be improved?
+      description: Describe the documentation, architecture, media, or public-facing content that could be better.
+      placeholder: Tell us what you noticed and what you suggest changing.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional links or screenshots. Make sure they contain no sensitive information.
