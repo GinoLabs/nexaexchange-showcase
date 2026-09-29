@@ -4,7 +4,11 @@ This register is the intake point for media intended for the public NexaExchange
 
 ## Current approved media
 
-No simulator screenshots or videos are currently registered here as approved public showcase media.
+| File | Type | Public purpose | Review status |
+| --- | --- | --- | --- |
+| `VISUALS.md` | Mermaid diagrams | Sanitized simulator scope, architecture, and public engineering milestones | Approved for public showcase |
+
+No simulator screenshots or videos are currently registered as approved public showcase media.
 
 ## Before adding any screenshot or video
 
