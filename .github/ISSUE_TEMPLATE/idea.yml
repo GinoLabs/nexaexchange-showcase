@@ -1,0 +1,21 @@
+name: Simulator or showcase idea
+description: Share a non-sensitive idea for the NexaExchange simulator
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        NexaExchange is a simulator. Do not post real-money trading instructions, credentials, private infrastructure details, or vulnerability details here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What simulator or documentation problem does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested idea
+    validations:
+      required: true
