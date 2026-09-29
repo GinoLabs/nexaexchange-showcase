@@ -105,6 +105,15 @@ Sponsorship does not represent an investment product, customer deposit, token sa
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the sanitized architecture overview.
 
+## Repository guides
+
+- [Architecture](ARCHITECTURE.md)
+- [Public roadmap](ROADMAP.md)
+- [Security policy](SECURITY.md)
+- [Contributing](CONTRIBUTING.md)
+- [Simulator disclaimer](DISCLAIMER.md)
+- [Public release checklist](PUBLIC_RELEASE_CHECKLIST.md)
+
 ## Repository boundary
 
 Public showcase repository: `nexaexchange-showcase`  
